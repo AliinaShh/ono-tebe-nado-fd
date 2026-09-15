@@ -10,5 +10,5 @@
 * Pixel-perfect верстка по макету из Figma
 
 ## Ссылки
-* [Ссылка на макет в Figma](https://www.figma.com/...) 
-* [Ссылка на GitHub Pages](https://github.com/AliinaShh/ono-tebe-nado-fd) *
+
+* Ссылка на GitHub Pages(https://github.com/AliinaShh/ono-tebe-nado-fd) *

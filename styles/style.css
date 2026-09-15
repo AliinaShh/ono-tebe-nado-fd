@@ -1,4 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+h1, h2, h3, p {
+  margin: 0;
+}
 .overlay {
   position: absolute;
   inset: 0;
@@ -9,6 +17,7 @@
 /*_____HEADER____*/
 .header__container {
   display: grid;
+  height: 293px;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px;

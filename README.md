@@ -11,4 +11,4 @@
 
 ## Ссылки
 
-* Ссылка на GitHub Pages(https://github.com/AliinaShh/ono-tebe-nado-fd) *
+Ссылка на GitHub Pages: https://github.com/AliinaShh/ono-tebe-nado-fd

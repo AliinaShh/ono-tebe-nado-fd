@@ -36,18 +36,26 @@ h1, h2, h3, p {
   list-style: circle;
   display: flex;
   gap: 32px;
-  padding-left: 20px;
+  
 }
 
-.header__links-list-item_no-bullit {
-  list-style: none;
-}
+
 
 .header__link {
   text-decoration: underline;
   text-underline-offset: 4px;
+  font-size: 18px;
+  
 }
 
+.header__link_no-underline {
+  text-decoration: none;
+  
+}
+.header__item_no-circle {
+  list-style: none;
+  
+}
 /*_.header__contacts {
   width: 240px;
   height: 98px;
@@ -91,7 +99,7 @@ h1, h2, h3, p {
 .cover__title {
   text-transform: uppercase;
   gap: 20px;
-  letter-spacing: 30%;
+  letter-spacing: 30px;
   margin-top: 115px;
   margin-bottom: auto;
   display: flex;
@@ -103,6 +111,7 @@ h1, h2, h3, p {
 
 .aligned-text {
   display: block;
+  width: 100%;
 }
 
 .aligned-text_left {
@@ -111,13 +120,17 @@ h1, h2, h3, p {
 
 .aligned-text_center {
   text-align: center;
+  padding-left: 30px;
+  
+
   
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-left: 30px;
   
-  
+
 }
 
 .cover__bottom-content {
@@ -154,7 +167,10 @@ h1, h2, h3, p {
 
 /*_____LOTS____*/
 .lots {
-  padding: 180px 24px;
+  padding-top: 180px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 120px;
 }
 
 .lots__title {
@@ -170,7 +186,7 @@ h1, h2, h3, p {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .lots__item {
@@ -218,6 +234,7 @@ h1, h2, h3, p {
   font-size: 20px;
   line-height: 120%;
   width: 254px;
+  
 }
 
 .lots__more {
@@ -226,16 +243,16 @@ h1, h2, h3, p {
   font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 4px;
-  
   margin-left: 40px; 
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 
 
 /*_____ABOUT___*/
 .about-auction {
-  padding: 0 24px 120px;
+  padding: 0 24px 0px;
+  margin-bottom: 180px;
 }
 
 .about-auction__container {
@@ -274,7 +291,6 @@ h1, h2, h3, p {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  
   width: 693px;
   display: flex;
   flex-direction: column;
@@ -284,7 +300,7 @@ h1, h2, h3, p {
 
 /*___FOOTER_______*/
 .footer {
-  padding: 0 24px 90px;
+  padding-bottom: 90px;
 }
 
 .footer__container {
@@ -311,7 +327,6 @@ h1, h2, h3, p {
 
 .footer__nav {
   width: 164px;
-  
   text-align: center;
   justify-self: center;
 }
@@ -328,12 +343,16 @@ h1, h2, h3, p {
 .footer__link {
   text-decoration: underline;
   text-underline-offset: 3px;
+  font-size: 18px;
 }
 
-
+.footer__link_no-underline {
+  text-decoration: none;
+}
 
 .footer__social-list {
   display: flex;
+  margin-right: 50px;
   gap: 48px;
   width: 240px;
   list-style: none;

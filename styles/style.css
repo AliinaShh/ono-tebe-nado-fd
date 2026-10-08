@@ -144,7 +144,7 @@ h1, h2, h3, p {
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 16px;
+  word-spacing: 18px;
   width: 637px;
 }
 
@@ -170,7 +170,7 @@ h1, h2, h3, p {
   padding-top: 180px;
   padding-left: 24px;
   padding-right: 24px;
-  margin-bottom: 120px;
+  margin-bottom: 180px;
 }
 
 .lots__title {
